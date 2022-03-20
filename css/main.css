@@ -1,0 +1,155 @@
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    /* Елемент стає посередині */
+}
+body{
+    padding:0;
+    margin: 0;
+    /* Прибираємо усі відступи по периметру padding + margin */
+}
+header{
+    background: rgba(78,191,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,191,254,1)), color-stop(100%, rgba(55,143,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebffe', endColorstr='#378fd9', GradientType=1 );
+    /* Градієнтна заливка */
+    color: white;
+}
+.logo{
+    padding-top: 60px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.offer{
+    margin-top: 166px;
+}
+.title{
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: 37px;
+    width: 590px;
+}
+.title span{
+    font-size: 59px;
+}
+.intro{
+    font-family: open sans;
+    font-size: 16px;
+}
+.btn{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background-color: #ffd429;
+    font-family: Montserrat;
+    font-weight: black;
+    font-size: 15px;
+    padding: 22px 26px;
+    margin-top: 67px;
+    width: 220px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background: #e0b60b;
+}
+.travelImage{
+    margin-top: 60px;
+    padding-bottom: 140px;
+}
+.wantbe h2{
+    padding-top: 110px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: ubuntu;
+    font-weight: bold;
+}
+.motivations{
+    display: flex;
+    justify-content: space-between;
+}
+.motivation{
+    text-align: center;
+}
+.motivation img{
+    margin-bottom: 30px;
+}
+.motivation h2{
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: 30px;
+}
+.motivation h3{
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.motivation p{
+    font-family: ubuntu;
+    font-weight: regular;
+    font-size: 15px;
+    margin-bottom: 120px;
+}
+.form{
+    padding-top: 110px;
+    background-color: #ecf3f8;
+}
+.form h2{
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+form input{
+    height: 45px;
+    width: 340px;
+    margin: auto;
+    margin-left: 35%;
+    margin-bottom: 14px;
+    padding-left: 25px;
+    font-family: ubuntu;
+    font-weight: regular;
+    font-size: 15px;
+    color: #bbbbbb;
+    border: 1px solid #bbbbbb;
+}
+.btn-form{
+    color: #000;
+    background-color: #ffd429;
+    font-family: Montserrat;
+    font-weight: black;
+    font-size: 15px;
+    margin-left: 36%;
+    border: none;
+    width: 342px;
+    height: 55px;
+    margin-bottom: 102px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.btn-form :hover{
+    background: #e0b60b;
+}
+footer p{
+    font-family: open sans;
+    font-weight: regular;
+    font-size: 14px;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    padding-left: 37%;
+    color: #bac5d0;
+    margin: 0 auto;
+    
+}
+footer{
+    background: #164d7a;
+}
