@@ -1,0 +1,265 @@
+body{
+    padding:0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+}
+h1, h2, h3, p, form{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* --------------------------------- */
+header{
+    background: rgba(78,191,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,191,254,1)), color-stop(100%, rgba(55,143,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,191,254,1) 0%, rgba(55,143,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebffe', endColorstr='#378fd9', GradientType=1 );
+    color: white;
+    padding-top: 60px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: inherit;
+}
+.offer{
+    padding-top: 146px;
+}
+h1{
+    padding-bottom: 47px;
+}
+.title{
+    font-size: 37px;
+    width: 590px;
+}
+.title span{
+    font-size: 59px;
+}
+.offer p{
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 400px;
+    padding-bottom: 45px;
+}
+.btn{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background-color: #ffd429;
+    font-family: "Montserrat", sans-serif;
+    font-weight: "black";
+    font-size: 15px;
+    padding: 22px 26px;
+    width: 220px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background: #e0b60b;
+}
+.travelImage{
+    padding-top: 60px;
+}
+/* -------------------------------------- */
+.wantbe{
+    padding-top: 110px;
+    padding-bottom: 122px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: "bold";
+    text-align: center;
+}
+.motivations{
+    display: flex;
+    justify-content: space-between;
+}
+.motivation{
+    text-align: center;
+    width: 289px;
+}
+.motivation img{
+    padding-bottom: 30px;
+}
+.wantbe h2{
+    padding-bottom: 75px;
+   font-size: 30px;
+}
+.motivation h3{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+.motivation p{
+    font-weight: 400;
+    font-size: 15px;
+}
+/* ------------------------------------------- */
+.form{
+    padding-top: 100px;
+    background-color: #ecf3f8;
+}
+form{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.form h2{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+input{
+    height: 45px;
+    width: 340px;
+    
+    margin-bottom: 15px;
+    padding-left: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #bbbbbb;
+    border: 1px solid #bbbbbb;
+}
+.btn-form{
+    color: #000;
+    background-color: #ffd429;
+    font-family: "Montserrat", sans-serif;
+    font-weight: "black";
+    font-size: 15px;
+    border: none;
+    width: 340px;
+    height: 55px;
+    margin-bottom: 102px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+.btn-form :hover{
+    background: #e0b60b;
+}
+/* ----------------------------------------- */
+footer p{
+    font-family: "Open sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #bac5d0;
+    margin: 0 auto;
+    text-align: center;
+}
+footer{
+    padding-top: 62px;
+    padding-bottom: 62px;
+    background: #164d7a;
+}
+
+/* Responsive */
+/* 992px - 1200px */
+@media screen and (max-width: 1200px){
+    .container{
+        width: 960px
+    }
+    .logo{
+        padding-left: 20%;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .offer{
+        padding-bottom: 0;
+    }
+    footer{
+        padding: 30px 0;
+    }
+}
+/* 768px - 992px */
+@media screen and (max-width: 992px){
+    .container{
+        width: 730px
+    }
+    .logo{
+        padding-left: 10%;
+    }
+    footer{
+        padding: 20px 0;
+    }
+}
+/* 576px - 768px */
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px
+    }
+    .title{
+        width: 95%;
+    }
+    .offer{
+        padding-bottom: 0;
+    }
+    .motivations{
+        display: flex;
+        flex-direction: column;
+    }
+    .motivation{
+        margin: 0 auto;
+        padding-bottom: 75px;
+    }
+    .wantbe{
+        padding-bottom: 100px;
+    }
+    footer{
+        padding: 15px 0;
+    }
+}
+/* 320px - 576px */
+@media screen and (max-width: 576px){
+    .container{
+        width: 300px;
+    }
+    .wrapper{
+        text-align: center;
+    }
+    .offer{
+        width: 350px;
+        padding-top: 120px;
+    }
+    .offer p{
+        width: 300px;
+        margin: 0 25px;
+    }
+    .btn{
+        margin: 0 auto;
+    }
+    .title{
+        margin: 0 auto;
+    }
+    .travelImage{
+        height: 350px;
+        padding-bottom: 50px;
+    }
+    .wantbe{
+        padding-bottom: 50px;
+    }
+    input{
+        width: 340px;
+        margin-right: 12%;
+    }
+    .btn-form{
+        width: 250px;
+        margin: 0 25px;
+        margin-right: 18.5%;
+    }
+    footer{
+        padding: 10px 0;
+    }
+}
